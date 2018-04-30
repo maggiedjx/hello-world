@@ -1,6 +1,4 @@
-﻿using System;
-
-// AUTHOR: Jiaxin Dong
+﻿// AUTHOR: Jiaxin Dong
 // FILENAME: encryptWord.cs
 // DATE: 4/15/2018
 // VERSION: 1 (initial submission)
@@ -44,6 +42,8 @@
 // We assume that we can include different packages for extra functions.
 // We assume that when letters are shifted past the end, it wraps around,
 // like "z" shifts to "a" if the shift is 1.
+
+using System;
 
 namespace cpsc5051 {
     class encryptWord {
